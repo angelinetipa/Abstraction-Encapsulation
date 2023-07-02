@@ -36,7 +36,7 @@ class Fan:
         self.__speed = self.MEDIUM
         return self.__speed
     def set_speedFAST(self):
-        self._speed = self.FAST
+        self.__speed = self.FAST
         return self.__speed
     
     # setter method for radius
@@ -46,3 +46,8 @@ class Fan:
     # setter method for color
     def set_color(self, color):
         self.__color = color
+
+    # setter method for on
+    def set_fanON(self):
+        self.__on = True
+        

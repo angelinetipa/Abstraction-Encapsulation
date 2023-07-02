@@ -32,3 +32,6 @@ class Fan:
     def set_speedSLOW(self):
         self.__speed = self.SLOW
         return self._speed
+    def set_speedMEDIUM(self):
+        self.__speed = self.MEDIUM
+        return self.__speed

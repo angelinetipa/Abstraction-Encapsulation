@@ -11,8 +11,9 @@ class Fan:
     def __init__(self, speed = SLOW, radius = 5, color = "blue", on = False ):
         # private int data field named speed 
         self.__speed = speed
-        # private bool data field named on 
         # private float data field named radius 
+        self.__radius = 5
+        # private bool data field named on 
         # private string data field named color 
     # getter methods
     # setter methods

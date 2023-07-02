@@ -1,3 +1,6 @@
+# import fan class
+from FanClass import Fan
+
 # First object, assign the maximum speed, radius 10, color yellow, and turn it on
 # Display first object speed, radius, color, on properties
 

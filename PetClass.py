@@ -1,4 +1,5 @@
 # class named Pet
+class Pet:
 # _ _init_ _ method that creates these attributes (name, animal type, age)
 # _ _name (for the name of a pet)
 # _ _animal_type (for the type of animal that a pet is. Example values are ‘Dog’, ‘Cat’, and ‘Bird’)

@@ -1,10 +1,11 @@
 # class named Pet
 class Pet:
     # _ _init_ _ method that creates these attributes (name, animal type, age)
-    def __init__(self, name, type, age):
+    def __init__(self, name, animal, age):
         # _ _name (for the name of a pet)
         self.__name = name
-        # _ _animal_type (for the type of animal that a pet is. Example values are ‘Dog’, ‘Cat’, and ‘Bird’)
+        # _ _animal_type (for the type of animal that a pet is)
+        self.__animal_type = animal
         # _ _age (for the pet’s age)
 # set_name() method assigns a value to the _ _name field
 # set_animal_type() method assigns a value to the _ _animal_type field

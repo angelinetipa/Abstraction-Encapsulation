@@ -1,12 +1,14 @@
 # import car class
 from CarClass import Car
+from colorama import Style, Fore
 
 # creates a Car object
 my_car = Car(2021, "Honda Civic Hatchback")
 # calls the accelerate method five times
-for every_num in range(5):
+for number in range(5):
     my_car.accelerate()
     # get the current speed of the car and display it
-    print(f"{my_car.__make()} {my_car.__year_model()} \nSpeed: {my_car.get_speed()}")
+    print(f"""{Style.BRIGHT}\n{my_car.get_make()} {my_car.get_year()} {Style.RESET_ALL} {Fore.BLACK}>>  Accelerated by {number + 1} times {Style.RESET_ALL}
+{Style.BRIGHT}▪ Speed: {Style.RESET_ALL}{my_car.get_speed()}""")
 # call the brake method five times
 # After each call to the brake method, get the current speed of the car and display it.

@@ -25,4 +25,6 @@ class Fan:
         return self.__radius
     def get_color(self):
         return self.__color
+    def get_on(self):
+        return self.__on
     # setter methods

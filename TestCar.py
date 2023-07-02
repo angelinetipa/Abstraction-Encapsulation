@@ -14,4 +14,6 @@ for number in range(5):
 # call the brake method five times
 for number in range(5):
     my_car.brake()
-# After each call to the brake method, get the current speed of the car and display it.
+    # get the current speed of the car and display it
+    print(f"""{Style.BRIGHT}\n{my_car.get_make()} {my_car.get_year()} {Style.RESET_ALL} {Fore.BLACK}>>  Decelerated by {number + 1} times {Style.RESET_ALL}
+{Style.BRIGHT}▪ Speed: {Style.RESET_ALL}{my_car.get_speed()}""")

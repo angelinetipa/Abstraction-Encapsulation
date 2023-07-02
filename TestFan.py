@@ -1,5 +1,6 @@
 # import fan class
 from FanClass import Fan
+from colorama import Style
 
 # First object, assign the maximum speed, radius 10, color yellow, and turn it on
 fan1 = Fan()
@@ -8,7 +9,10 @@ fan1.set_radius(10)
 fan1.set_color("yellow")
 fan1.set_fanON()
 # Display first object speed, radius, color, on properties
-print(f"FIRST FAN\nSpeed: {fan1.get_speed()} \nRadius: {fan1.get_radius()} \nColor: {fan1.get_color()} \nOn: {fan1.get_on()}\n")
+print(f"""{Style.BRIGHT}\nFIRST FAN\n▪ Speed:  {Style.RESET_ALL}{fan1.get_speed()} 
+{Style.BRIGHT}▪ Radius: {Style.RESET_ALL}{fan1.get_radius()} 
+{Style.BRIGHT}▪ Color:  {Style.RESET_ALL}{fan1.get_color()} 
+{Style.BRIGHT}▪ On:     {Style.RESET_ALL}{fan1.get_on()}\n""")
 
 # Second object, assign the medium speed, radius 5, color blue, and turn it off
 fan2 = Fan()

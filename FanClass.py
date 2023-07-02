@@ -28,7 +28,7 @@ class Fan:
     def get_on(self):
         return self.__on
     
-    # setter methods
+    # setter methods for speed
     def set_speedSLOW(self):
         self.__speed = self.SLOW
         return self._speed
@@ -38,3 +38,7 @@ class Fan:
     def set_speedFAST(self):
         self._speed = self.FAST
         return self.__speed
+    
+    # setter method for radius
+    def set_radius(self, radius):
+        self.__radius = radius

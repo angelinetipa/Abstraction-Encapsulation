@@ -12,9 +12,10 @@ class Fan:
         # private int data field named speed 
         self.__speed = speed
         # private float data field named radius 
-        self.__radius = 5
+        self.__radius = radius
         # private string data field named color
-        self.__color = "blue"  
+        self.__color = color 
         # private bool data field named on
+        self.__on = on
     # getter methods
     # setter methods

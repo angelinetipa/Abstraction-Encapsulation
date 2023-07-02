@@ -7,6 +7,7 @@ class Pet:
         # _ _animal_type (for the type of animal that a pet is)
         self.__animal_type = animal
         # _ _age (for the pet’s age)
+        self.__age = age
 # set_name() method assigns a value to the _ _name field
 # set_animal_type() method assigns a value to the _ _animal_type field
 # set_age() method assigns a value to the _ _age field

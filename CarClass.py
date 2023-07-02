@@ -8,6 +8,9 @@ class Car:
         self.__make = make
         # _ _speed (for the car’s current speed)
         self.__speed = speed
-# accelerate method should add 5 to the speed data attribute each time it is called
+    # accelerate method should add 5 to the speed data attribute each time it is called
+    def accelerate(self):
+        self.__speed += 5
+      
 # brake method should subtract 5 from the speed data attribute each time it is called
 # get_speed method should return the current speed

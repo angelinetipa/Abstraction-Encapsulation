@@ -27,4 +27,7 @@ class Fan:
         return self.__color
     def get_on(self):
         return self.__on
+    
     # setter methods
+    def set_speed(self, speed):
+        self.__speed = speed

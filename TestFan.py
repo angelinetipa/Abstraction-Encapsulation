@@ -17,3 +17,4 @@ fan2.set_radius(5)
 fan2.set_color("blue")
 fan2.set_fanOFF()
 # Dsiplay second object speed, radius, color, on properties
+print(f"Speed: {fan2.get_speed()} \nRadius: {fan2.get_radius()} \nColor: {fan2.get_color()} \nOn: {fan2.get_on()}\n")

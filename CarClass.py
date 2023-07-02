@@ -20,3 +20,9 @@ class Car:
     # get_speed method should return the current speed
     def get_speed(self):
         return self.__speed
+    
+    # getter methods
+    def get_make(self):
+        return self.__make
+    def get_year(self):
+        return self.__year_model

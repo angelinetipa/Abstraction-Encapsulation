@@ -7,5 +7,6 @@ my_car = Car(2021, "Honda Civic Hatchback")
 for every_num in range(5):
     my_car.accelerate()
     # get the current speed of the car and display it
+    print(f"{my_car.__make()} {my_car.__year_model()} \nSpeed: {my_car.get_speed()}")
 # call the brake method five times
 # After each call to the brake method, get the current speed of the car and display it.

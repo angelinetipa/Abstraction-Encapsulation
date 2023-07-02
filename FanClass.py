@@ -17,5 +17,9 @@ class Fan:
         self.__color = color 
         # private bool data field named on
         self.__on = on
+
     # getter methods
+    def get_speed(self):
+        return self.__speed
+    
     # setter methods

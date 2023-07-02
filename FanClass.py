@@ -50,4 +50,5 @@ class Fan:
     # setter method for on
     def set_fanON(self):
         self.__on = True
-        
+    def set_fanOFF(self):
+        self.__on = False    
